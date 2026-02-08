@@ -48,11 +48,8 @@ const textConfig = {
   ]
 }
 
-
-const anarchistOverlay = game.modules.get('anarchist-overlay');
-textHtml = await anarchistOverlay.createTextCrawlHtml(textConfig);
-
-
+const anarchistOverlay = game.modules.get('anarchist-overlay-remake');
+const textHtml = await anarchistOverlay.createTextCrawlHtml(textConfig);
 anarchistOverlay.createOverlay(overlayConfig, textHtml);
 
 ```
@@ -76,11 +73,10 @@ const textConfig = {
     typingTime: 1.5,
     delay: 0.5,
     blackBars: false,
-    aboveUi: false,
     glitchEffect: { time: 0.5 },
     lines: [
       {
-        text: '>//CC: FORCOMM X-X DESG:: “BROADCAST”',
+        text: '>//CC: FORCOMM X-X DESG:: "BROADCAST"',
         fontSize: '30px',
       },
       {
@@ -110,11 +106,8 @@ const textConfig = {
     ]
   }
 
-
-const anarchistOverlay = game.modules.get('anarchist-overlay');
-textHtml = await anarchistOverlay.createTextCrawlHtml(textConfig);
-
-
+const anarchistOverlay = game.modules.get('anarchist-overlay-remake');
+const textHtml = await anarchistOverlay.createTextCrawlHtml(textConfig);
 anarchistOverlay.createOverlay(overlayConfig, textHtml);
 ```
 ![Animation-4](https://github.com/reynevan24/anarchist-overlay/assets/10486394/7a0c55be-2a1b-4bb2-b987-df6e6fc78b7d)
