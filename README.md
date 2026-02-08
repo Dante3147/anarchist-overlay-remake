@@ -1,15 +1,15 @@
-# Anarchist Overlay
+# Anarchist Overlay Remake
 
-Module for the Foundry VTT, allowing to render arbitrary HTML in a configurable overlay above the canvas for all users simultaneously. It also includes a method for getting HTML for mission briefing-like text crawl.
+Módulo para o Foundry VTT, que permite renderizar HTML arbitrário em uma sobreposição configurável acima da tela para todos os usuários simultaneamente. Também inclui um método para obter HTML para um texto de apresentação semelhante ao de um briefing de missão.
 
-## Installation
+## Instalação
 
-Install using a manifest link:
+Instale usando um link de manifesto:
 ```
-https://github.com/reynevan24/anarchist-overlay/releases/latest/download/module.json
+https://github.com/Dante3147/anarchist-overlay-remake/releases/latest/download/module.json
 ```
 
-## Example usage:
+## Exemplo de uso:
 
 Macro:
 ```js
@@ -56,11 +56,11 @@ textHtml = await anarchistOverlay.createTextCrawlHtml(textConfig);
 anarchistOverlay.createOverlay(overlayConfig, textHtml);
 
 ```
-Effect:
+Efeito:
 
 ![Animation](https://user-images.githubusercontent.com/10486394/233835406-5a02eaf6-3374-491b-97ba-813512fab075.gif)
 
-### Glitch Effect:
+### Efeito Glitch:
 
 ```js
 const overlayConfig = {
@@ -142,3 +142,6 @@ export type TextCrawlConfig = {
   glitchEffect?: { time: number } | false; // adds a glitch effect. Should contain object with information how long should animation loop take
 };
 ```
+# Agradecimentos
+
+If you, szymon-baranczyk, are reading this, thank you again for having such an original idea. I was sad that there was no port for a V12, because such a good idea needs to be showcased and used.
