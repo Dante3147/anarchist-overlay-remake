@@ -4,6 +4,12 @@ Módulo para o Foundry VTT, que permite renderizar HTML arbitrário em uma sobre
 
 ## Instalação
 
+Instale via Zip
+
+```
+https://github.com/Dante3147/anarchist-overlay-remake/releases/download/v0.3.0/anarchist-overlay-remake.zip
+```
+
 Instale usando um link de manifesto:
 ```
 https://github.com/Dante3147/anarchist-overlay-remake/releases/latest/download/module.json
