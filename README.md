@@ -142,6 +142,8 @@ export type TextCrawlConfig = {
   glitchEffect?: { time: number } | false; // adds a glitch effect. Should contain object with information how long should animation loop take
 };
 ```
-# Agradecimentos
+# Agradecimentos e credito original | Acknowledgments and original credit
 
 If you, szymon-baranczyk, are reading this, thank you again for having such an original idea. I was sad that there was no port for a V12, because such a good idea needs to be showcased and used.
+
+[Original Creator](https://github.com/szymon-baranczyk/anarchist-overlay)
